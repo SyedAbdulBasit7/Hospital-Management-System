@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label1" xml:space="preserve">
+    <value>电子智能医院系统</value>
+  </data>
+  <data name="Label10" xml:space="preserve">
+    <value>急</value>
+  </data>
+  <data name="Label11" xml:space="preserve">
+    <value>透析</value>
+  </data>
+  <data name="Label12" xml:space="preserve">
+    <value>新聞與事件</value>
+  </data>
+  <data name="Label13" xml:space="preserve">
+    <value>現在發生的事</value>
+  </data>
+  <data name="Label14" xml:space="preserve">
+    <value>聯繫我們</value>
+  </data>
+  <data name="Label15" xml:space="preserve">
+    <value>反饋</value>
+  </data>
+  <data name="Label16" xml:space="preserve">
+    <value>登錄</value>
+  </data>
+  <data name="Label17" xml:space="preserve">
+    <value>註冊</value>
+  </data>
+  <data name="Label18" xml:space="preserve">
+    <value>eHospital Systems是一個電子健康記錄系統（EHR），旨在管理醫院運營的各個方面。這個可定制的醫療保健解決方案包括OPD和IPD管理，藥房，實驗室，放射學，病房管理，移動應用，在線預約安排，安全消息， 博士門戶，患者和家庭門戶，計費，會計，人力資源/薪資，警報系統和HL7 /集成PACS系統。 它是根據世界各地的最佳實踐開發的</value>
+  </data>
+  <data name="Label19" xml:space="preserve">
+    <value>＆複製2018電子智能醫院系統。保留所有權利。</value>
+  </data>
+  <data name="Label2" xml:space="preserve">
+    <value>家</value>
+  </data>
+  <data name="Label20" xml:space="preserve">
+    <value>新聞</value>
+  </data>
+  <data name="Label21" xml:space="preserve">
+    <value>報告顯示，轉移性乳腺癌患者感到孤立，需要更多來自HCP的支持。</value>
+  </data>
+  <data name="Label22" xml:space="preserve">
+    <value>新的肺癌指南旨在推動更好的結果和護理</value>
+  </data>
+  <data name="Label23" xml:space="preserve">
+    <value>營養補充劑可以減緩癌症生長並增強化療效果</value>
+  </data>
+  <data name="Label24" xml:space="preserve">
+    <value>心力衰竭的心力衰竭患者有更多的抑鬱症狀，生活質量較低</value>
+  </data>
+  <data name="Label25" xml:space="preserve">
+    <value>活動</value>
+  </data>
+  <data name="Label26" xml:space="preserve">
+    <value>將在全國范圍內觀察國家癌症宣傳日</value>
+  </data>
+  <data name="Label27" xml:space="preserve">
+    <value>世界糖尿病日是關注糖尿病的主要全球宣傳活動</value>
+  </data>
+  <data name="Label28" xml:space="preserve">
+    <value>自1988年以來每年12月1日指定的世界艾滋病日是一個國際日，致力於提高人們對艾滋病毒感染蔓延引起的艾滋病流行病的認識，並哀悼那些死於艾滋病的人</value>
+  </data>
+  <data name="Label29" xml:space="preserve">
+    <value>人權日每年12月10日在全世界慶祝。 選擇這一日期是為了紀念聯合國大會的通過和宣布</value>
+  </data>
+  <data name="Label3" xml:space="preserve">
+    <value>關於我們</value>
+  </data>
+  <data name="Label30" xml:space="preserve">
+    <value>BMI（體重指數）</value>
+  </data>
+  <data name="Label31" xml:space="preserve">
+    <value>身體質量指數（BMI）是一個人的體重（千克）除以身高（米）的平方。 高BMI可以作為高體重脂肪的指標.BMI可以用於篩選可能導致健康問題的體重類別，但它不能診斷個體的身體肥胖或健康。</value>
+  </data>
+  <data name="Label32" xml:space="preserve">
+    <value>高度：</value>
+  </data>
+  <data name="Label33" xml:space="preserve">
+    <value>重量：</value>
+  </data>
+  <data name="Label34" xml:space="preserve">
+    <value>健康，健康和生活方式診所：</value>
+  </data>
+  <data name="Label35" xml:space="preserve">
+    <value>組件</value>
+  </data>
+  <data name="Label36" xml:space="preserve">
+    <value>體檢和諮詢</value>
+  </data>
+  <data name="Label37" xml:space="preserve">
+    <value>實驗室分析</value>
+  </data>
+  <data name="Label38" xml:space="preserve">
+    <value>疫苗接種</value>
+  </data>
+  <data name="Label39" xml:space="preserve">
+    <value>心臟健康評估</value>
+  </data>
+  <data name="Label4" xml:space="preserve">
+    <value>介紹</value>
+  </data>
+  <data name="Label40" xml:space="preserve">
+    <value>肺健康評估</value>
+  </data>
+  <data name="Label41" xml:space="preserve">
+    <value>一般X射線</value>
+  </data>
+  <data name="Label42" xml:space="preserve">
+    <value>閱讀更多</value>
+  </data>
+  <data name="Label43" xml:space="preserve">
+    <value>超聲波/腹部/前列腺</value>
+  </data>
+  <data name="Label44" xml:space="preserve">
+    <value>骨密度測試</value>
+  </data>
+  <data name="Label45" xml:space="preserve">
+    <value>牙科檢查</value>
+  </data>
+  <data name="Label46" xml:space="preserve">
+    <value>血型檢測</value>
+  </data>
+  <data name="Label47" xml:space="preserve">
+    <value>大便考試</value>
+  </data>
+  <data name="Label48" xml:space="preserve">
+    <value>營養諮詢</value>
+  </data>
+  <data name="Label49" xml:space="preserve">
+    <value>包</value>
+  </data>
+  <data name="Label5" xml:space="preserve">
+    <value>規則與規定</value>
+  </data>
+  <data name="Label50" xml:space="preserve">
+    <value>行政套餐</value>
+  </data>
+  <data name="Label51" xml:space="preserve">
+    <value>高級套餐</value>
+  </data>
+  <data name="Label52" xml:space="preserve">
+    <value>中級包</value>
+  </data>
+  <data name="Label53" xml:space="preserve">
+    <value>二級包裝</value>
+  </data>
+  <data name="Label54" xml:space="preserve">
+    <value>小學套餐</value>
+  </data>
+  <data name="Label55" xml:space="preserve">
+    <value>計時</value>
+  </data>
+  <data name="Label56" xml:space="preserve">
+    <value>實驗室收集點</value>
+  </data>
+  <data name="Label57" xml:space="preserve">
+    <value>盲人</value>
+  </data>
+  <data name="Label58" xml:space="preserve">
+    <value>呼吸窘迫</value>
+  </data>
+  <data name="Label59" xml:space="preserve">
+    <value>手術和盟軍</value>
+  </data>
+  <data name="Label6" xml:space="preserve">
+    <value>部門</value>
+  </data>
+  <data name="Label7" xml:space="preserve">
+    <value>血管造影</value>
+  </data>
+  <data name="Label8" xml:space="preserve">
+    <value>臨床實驗室</value>
+  </data>
+  <data name="Label9" xml:space="preserve">
+    <value>牙科</value>
+  </data>
+</root>

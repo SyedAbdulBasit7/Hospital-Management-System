@@ -1,0 +1,138 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>E-Smart Hospital</title>
+    <link href="App_Themes/Theme1/homeStyle.css" rel="stylesheet" />
+    <link rel="icon" href="eicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     
+    <asp:ContentPlaceHolder id="head" runat="server">
+         
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+   <div class="header-fluid">
+        <header>
+          <a href="Setting.aspx" class="btn btn-primary" role="button" style="border:2px solid white;">Setting</a>
+            <asp:DropDownList ID="DropDownList1" runat="server" style="color: #fff; font-size: 20px; padding: 5px 10px; border-radius: 5px;background-color: #cc2a41; font-weight: bold;position:relative;top:3px;" AutoPostBack="True"  OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                <asp:ListItem Value="en">English</asp:ListItem>
+                <asp:ListItem Value="ur">Urdu</asp:ListItem>
+                <asp:ListItem Value="zh">Chinese</asp:ListItem>
+            </asp:DropDownList>
+
+          <div>
+              <a href="Home.aspx">
+               <img src="eicon.png" style=" width:10%; height:100px; border-radius:20px; float:left;position:relative; left:250px; top:-10px; " />
+                  </a>
+              
+              <div id="name" title="Electronic Smart Hospital System"><asp:Label ID="Label1" runat="server" Text="<%$ Resources:Resource, Label1 %>"></asp:Label></div>
+              </div>
+         
+          <div>
+              <ul>
+                  <li class="social"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li class="social"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                   <li class="social"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                  <li class="social"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                  <li class="social"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>   
+                  </ul>
+              </div>
+
+          <nav class="navbar navbar-inverse">
+              <ul class="nav navbar-nav">
+                  
+                  <li class="active"><a href="Home.aspx"><asp:Label ID="Label2" runat="server" Text="<%$ Resources:Resource, Label2 %>"></asp:Label></a></li>          
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><asp:Label ID="Label3" runat="server" Text="<%$ Resources:Resource, Label3 %>"></asp:Label><span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="Introduction.aspx">
+                              <asp:Label ID="Label4" runat="server" Text="<%$ Resources:Resource, Label4 %>"></asp:Label></a></li>
+                          
+                           <li><a href="Rules.aspx">
+                               <asp:Label ID="Label5" runat="server" Text="<%$ Resources:Resource, Label5 %>"></asp:Label></a></li>
+                          </ul>
+                  </li>
+                  
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">
+                      <asp:Label ID="Label6" runat="server" Text="<%$ Resources:Resource, Label6 %>"></asp:Label><span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="Angiography.aspx">
+                              <asp:Label ID="Label7" runat="server" Text="<%$ Resources:Resource, Label7 %>"></asp:Label></a></li>
+                          <li><a href="Clinical.aspx">
+                              <asp:Label ID="Label8" runat="server" Text="<%$ Resources:Resource, Label8 %>"></asp:Label></a></li>
+                          <li><a href="Dentistry.aspx">
+                              <asp:Label ID="Label9" runat="server" Text="<%$ Resources:Resource, Label9 %>"></asp:Label></a></li>
+                          <li><a href="Emergency.aspx">
+                              <asp:Label ID="Label10" runat="server" Text="<%$ Resources:Resource, Label10 %>"></asp:Label></a></li>
+                          <li><a href="Dialysis.aspx">
+                              <asp:Label ID="Label11" runat="server" Text="<%$ Resources:Resource, Label11 %>"></asp:Label></a></li>
+
+
+                          </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">
+                      <asp:Label ID="Label12" runat="server" Text="<%$ Resources:Resource, Label12 %>"></asp:Label><span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="CurrentEvent.aspx">
+                              <asp:Label ID="Label13" runat="server" Text="<%$ Resources:Resource, Label13 %>"></asp:Label></a></li>
+                          </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">
+                      <asp:Label ID="Label14" runat="server" Text="<%$ Resources:Resource, Label14 %>"></asp:Label><span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="Feedback.aspx">
+                              <asp:Label ID="Label15" runat="server" Text="<%$ Resources:Resource, Label15 %>"></asp:Label></a></li>
+                          </ul>
+                  </li>
+              
+                  <li id="log">
+                    <div>
+                   <a href="Login.aspx"><i class="fa fa-user" aria-hidden="true" style="position:relative;left:10px;"></i><span style="position:relative;left:20px;">
+                       <asp:Label ID="Label16" runat="server" Text="<%$ Resources:Resource, Label16 %>"></asp:Label></span></a>
+                  </div>
+                      </li>
+
+                  <li id="sign">
+                      <div>
+                      <a href="Signup.aspx"><i class="fa fa-user-plus" style="position:relative;left:10px;"></i><span>
+                          <asp:Label ID="Label17" runat="server" Text="<%$ Resources:Resource, Label17 %>"></asp:Label></span></a>
+                      </div>
+                          </li>
+              
+              </ul>
+             
+              </nav>
+          </header>
+
+         <div id="masdiv">
+        <asp:ContentPlaceHolder id="masdivcph" runat="server" >
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+        <footer>
+            <div>
+                <div style="width:55%;float:left;height:300px;margin-left:10px;">
+                <img src="E_new.png"/></div>
+                <div style="width:40%;float:left;position:relative;top:20px;right:400px;height:300px;">
+                <p>
+                    <asp:Label ID="Label18" runat="server" Text="<%$ Resources:Resource, Label18 %>"></asp:Label>
+                    </p></div>
+                </div>
+            <div id="cpr">
+                <h4>
+                    <asp:Label ID="Label19" runat="server" Text="<%$ Resources:Resource, Label19 %>"></asp:Label></h4>
+                </div>
+            
+            </footer>
+       </div>
+    </form>
+</body>
+</html>

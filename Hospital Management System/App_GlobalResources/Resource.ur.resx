@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label1" xml:space="preserve">
+    <value>ای سمارٹ ہسپتال کا نظام</value>
+  </data>
+  <data name="Label10" xml:space="preserve">
+    <value>ایمرجنسی</value>
+  </data>
+  <data name="Label11" xml:space="preserve">
+    <value>ڈائلیزیز</value>
+  </data>
+  <data name="Label12" xml:space="preserve">
+    <value>خبریں / تقریبات</value>
+  </data>
+  <data name="Label13" xml:space="preserve">
+    <value>موجودہ واقعات</value>
+  </data>
+  <data name="Label14" xml:space="preserve">
+    <value>ہم سے رابطہ کریں</value>
+  </data>
+  <data name="Label15" xml:space="preserve">
+    <value>تاثرات</value>
+  </data>
+  <data name="Label16" xml:space="preserve">
+    <value>میں لاگ ان کریں</value>
+  </data>
+  <data name="Label17" xml:space="preserve">
+    <value>سائن اپ</value>
+  </data>
+  <data name="Label18" xml:space="preserve">
+    <value>eHospital سسٹمز ایک الیکٹرانک ہیلتھ ریکارڈز سسٹم (EHR) ہے جو ہسپتال کے آپریشن کے تمام پہلوؤں کو منظم کرنے کے لئے ڈیزائن کیا گیا ہے. یہ مرضی کے مطابق صحت کی دیکھ بھال کے حل میں اوپیڈ اور آئی پی ڈی مینجمنٹ، فارمیسی، لیبارٹری، ریڈیولوجی، وارڈ مینجمنٹ، موبائل ایپلی کیشنز، آن لائن اپیلمنٹ شیڈولنگ، محفوظ پیغام رسانی، ڈاکٹر پورٹل، مریض اور خاندانی پورٹلز، بلنگ، اکاؤنٹنگ، ایچ آر / پے رول، الرٹ سسٹم اور ایچ ایل 7 / انٹیگریٹڈ پی اے سی سسٹم. یہ دنیا بھر میں بہترین طریقوں کے بعد تیار کیا گیا ہے</value>
+  </data>
+  <data name="Label19" xml:space="preserve">
+    <value>2018 الیکٹرانک اسمارٹ ہسپتال کے نظام کاپی کریں. تمام حقوق محفوظ ہیں.</value>
+  </data>
+  <data name="Label2" xml:space="preserve">
+    <value>گھر</value>
+  </data>
+  <data name="Label20" xml:space="preserve">
+    <value>خبریں</value>
+  </data>
+  <data name="Label21" xml:space="preserve">
+    <value>میٹاسکیٹک کینسر کے مریضوں کو الگ الگ محسوس ہوتا ہے اور ایچ سی سیز سے مزید مدد کی ضرورت ہے، رپورٹ سے پتہ چلتا ہے.</value>
+  </data>
+  <data name="Label22" xml:space="preserve">
+    <value>نئے پھیپھڑوں کے کینسر کی ہدایات کا مقصد بہتر نتائج اور دیکھ بھال کا مقصد ہے</value>
+  </data>
+  <data name="Label23" xml:space="preserve">
+    <value>غذائی ضمیمہ کینسر کی ترقی کو سست اور کیمیوتھراپی کے اثرات میں اضافہ کر سکتا ہے</value>
+  </data>
+  <data name="Label24" xml:space="preserve">
+    <value>مضبوط دلوں کے ساتھ دل کی ناکامی کے مریضوں کو زیادہ خطرناک علامات، زندگی کی کم کیفیت ہے</value>
+  </data>
+  <data name="Label25" xml:space="preserve">
+    <value>تقریبات</value>
+  </data>
+  <data name="Label26" xml:space="preserve">
+    <value>ملک بھر میں نیشنل کینسر بیداری کا دن منعقد کیا جائے گا</value>
+  </data>
+  <data name="Label27" xml:space="preserve">
+    <value>عالمی ذیابیطس کا دن بنیادی عالمی آگاہی مہم ہے جو ذیابیطس mellitus پر توجہ مرکوز کرتی ہے</value>
+  </data>
+  <data name="Label28" xml:space="preserve">
+    <value>ورلڈ ایڈز ڈے، 1 دسمبر 1988 کو ہر سال نامزد کیا گیا ہے، یہ ایک بین الاقوامی دن ہے جو ایچ آئی وی کی انفیکشن کے پھیلاؤ کی وجہ سے ایڈز پنڈیم کے بارے میں بیداری پیدا کرنے کے لئے وقف اور وقفے سے مر گیا ہے.</value>
+  </data>
+  <data name="Label29" xml:space="preserve">
+    <value>ہر سال دسمبر میں دنیا بھر میں ہر سال انسانی حقوق کا دن منایا جاتا ہے. تاریخ کو اقوام متحدہ کے جنرل اسمبلی کے اپنانے اور اعلان کا اعزاز دینے کا انتخاب کیا گیا تھا</value>
+  </data>
+  <data name="Label3" xml:space="preserve">
+    <value>ہمارے بارے میں</value>
+  </data>
+  <data name="Label30" xml:space="preserve">
+    <value>بی ایم آئی (جسم ماس انڈیکس)</value>
+  </data>
+  <data name="Label31" xml:space="preserve">
+    <value>جسمانی ماس انڈیکس (BMI) کلوگرام میں ایک شخص کا وزن ہے جس میں میٹر کی چوڑائی کی طرف سے تقسیم ہوتا ہے. اعلی بی ایم آئی اعلی جسم کی موٹائی کا اشارہ ہوسکتا ہے. BMMI وزن کے شعبوں کی سکرین پر استعمال کیا جا سکتا ہے جو صحت کے مسائل کی وجہ سے ہوسکتا ہے لیکن انفرادی طور پر جسم کی فطرت یا صحت کی تشخیصی نہیں ہے.</value>
+  </data>
+  <data name="Label32" xml:space="preserve">
+    <value>اونچائی:</value>
+  </data>
+  <data name="Label33" xml:space="preserve">
+    <value>وزن:</value>
+  </data>
+  <data name="Label34" xml:space="preserve">
+    <value>صحت، نعمت اور لائفلی کلینک:</value>
+  </data>
+  <data name="Label35" xml:space="preserve">
+    <value>اجزاء</value>
+  </data>
+  <data name="Label36" xml:space="preserve">
+    <value>طبی امتحان اور مشاورت</value>
+  </data>
+  <data name="Label37" xml:space="preserve">
+    <value>لیبارٹری تجزیہ</value>
+  </data>
+  <data name="Label38" xml:space="preserve">
+    <value>ویکسین</value>
+  </data>
+  <data name="Label39" xml:space="preserve">
+    <value>کارڈیک صحت کی تشخیص</value>
+  </data>
+  <data name="Label4" xml:space="preserve">
+    <value>تعارف</value>
+  </data>
+  <data name="Label40" xml:space="preserve">
+    <value>پلمونری صحت کی تشخیص</value>
+  </data>
+  <data name="Label41" xml:space="preserve">
+    <value>جنرل ایکس رے</value>
+  </data>
+  <data name="Label42" xml:space="preserve">
+    <value>مزید پڑھ</value>
+  </data>
+  <data name="Label43" xml:space="preserve">
+    <value>الٹراساؤنڈ / پیٹ / پروسٹیٹ</value>
+  </data>
+  <data name="Label44" xml:space="preserve">
+    <value>ہڈی کثافت ٹیسٹ</value>
+  </data>
+  <data name="Label45" xml:space="preserve">
+    <value>دانتوں کی امتحان</value>
+  </data>
+  <data name="Label46" xml:space="preserve">
+    <value>خون گروپ کا پتہ لگانا</value>
+  </data>
+  <data name="Label47" xml:space="preserve">
+    <value>سٹول امتحان</value>
+  </data>
+  <data name="Label48" xml:space="preserve">
+    <value>غذائی مشاورت</value>
+  </data>
+  <data name="Label49" xml:space="preserve">
+    <value>پیکجز</value>
+  </data>
+  <data name="Label5" xml:space="preserve">
+    <value>قواعد و ضوابط</value>
+  </data>
+  <data name="Label50" xml:space="preserve">
+    <value>ایگزیکٹو پیکیج</value>
+  </data>
+  <data name="Label51" xml:space="preserve">
+    <value>ایڈورانس پیکیج</value>
+  </data>
+  <data name="Label52" xml:space="preserve">
+    <value>انٹرمیڈیٹ پیکیج</value>
+  </data>
+  <data name="Label53" xml:space="preserve">
+    <value>ثانوی پیکیج</value>
+  </data>
+  <data name="Label54" xml:space="preserve">
+    <value>ابتدائی پیکیج</value>
+  </data>
+  <data name="Label55" xml:space="preserve">
+    <value>ٹائمنگ</value>
+  </data>
+  <data name="Label56" xml:space="preserve">
+    <value>لیب مجموعہ پوائنٹ</value>
+  </data>
+  <data name="Label57" xml:space="preserve">
+    <value>اندھے لوگ</value>
+  </data>
+  <data name="Label58" xml:space="preserve">
+    <value>سانس کی تکلیف</value>
+  </data>
+  <data name="Label59" xml:space="preserve">
+    <value>سرجری اور اتحادی</value>
+  </data>
+  <data name="Label6" xml:space="preserve">
+    <value>شعبہ</value>
+  </data>
+  <data name="Label7" xml:space="preserve">
+    <value>انگوگرافی</value>
+  </data>
+  <data name="Label8" xml:space="preserve">
+    <value>کلینیکل لیبارٹریز</value>
+  </data>
+  <data name="Label9" xml:space="preserve">
+    <value>دندان سازی</value>
+  </data>
+</root>

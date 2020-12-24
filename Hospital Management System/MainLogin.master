@@ -1,0 +1,107 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainLogin.master.cs" Inherits="MainLogin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>E-Smart Hospital</title>
+     <link href="App_Themes/Theme1/homeStyle.css" rel="stylesheet" />
+    <link rel="icon" href="eicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+   <div class="header-fluid">
+        <header>
+          <embed src="happy.mp" width="0" height="0"/>
+          <div>
+              <a href="Home.aspx">
+               <img src="eicon.png" style=" width:10%; height:100px; border-radius:20px; float:left;position:relative; left:200px; top:10px; " />
+                  </a>
+              <div id="name" title="Electronic Smart Hospital System">E-Smart Hospital System</div>
+              </div>
+         
+          <div>
+              <ul>
+                  <li class="social"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li class="social"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                   <li class="social"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                  <li class="social"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                  <li class="social"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>   
+                  </ul>
+              </div>
+
+          <nav class="navbar navbar-inverse">
+              <ul class="nav navbar-nav">
+                  <li class="active"><a href="Home.aspx">Home</a></li>
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">About Us<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="Introduction.aspx">Introduction</a></li>
+                          <li><a href="Rules.aspx">Rules & Regulation</a></li>
+                          </ul>
+                  </li>
+                  
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Department<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="Angiography.aspx">Angiography</a></li>
+                          <li><a href="Clinical.aspx">Clinical Laboratories</a></li>
+                          <li><a href="Dentistry.aspx">Dentistry</a></li>
+                          <li><a href="Emergency.aspx">Emergency</a></li>
+                          <li><a href="Dialysis.aspx">Dialysis</a></li>
+
+
+                          </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">News/Events<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="CurrentEvent.aspx">Current Events</a></li>
+                          </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Contact Us<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="Feedback.aspx">Feedback</a></li>
+                          </ul>
+                  </li>
+                 <li id="sign">
+                      <div>
+                      <a href="Login.aspx"><i class="fa fa-sign-out" style="position:relative;top:5px;font-size:36px;"></i><span style="position:relative;left:10px;top:1px;font-size:24px;">Log Out</span></a>
+                      <a /></div>
+                          </li>
+              </ul>
+             
+              </nav>
+          </header>
+
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+         <footer>
+            <div>
+                <div style="width:55%;float:left;height:300px;margin-left:10px">
+                <img src="E_new.png"/></div>
+                <div style="width:40%;float:left;position:relative;top:20px;right:400px;height:300px;">
+                <p>
+                    eHospital Systems is an Electronic Health Records System (EHR) designed to manage all aspects of a hospital operation.
+                    This customizable healthcare solution includes OPD and IPD Management, Pharmacy, Laboratory, Radiology,
+                     Ward Management, Mobile Application, Online Appointments Scheduling, Secured Messaging, Doctor Portal,
+                     Patient and Family Portals, Billing, Accounting, HR/Payroll, Alert System and HL7/Integrated PACS System. 
+                    It is developed following the best practices around the world.
+                    </p></div>
+                </div>
+            <div id="cpr">
+                <h4>&copy 2018 Electronic Smart Hospital System.All Rights Reserved.</h4>
+                </div>
+            
+            </footer>
+    </form>
+</body>
+</html>
